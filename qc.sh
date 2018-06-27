@@ -4,12 +4,12 @@
 
 # A few things to set before you go
 
-inputf="/disks/dacelo/data/raw_data/Project_SN7001117R_0083_CKulheim_LBronham_Melaleuca/"
-outputbase="/disks/dacelo/data/QC/test/"
-ref="/disks/dacelo/data/raw_data/active_refs/Emel.fa.gz" # reference file as a fasta
+inputf="/disks/dacelo/data/raw_data/tree_RB5/SN877_0459_RLanfear_RSB_Epauciflora_gDNA/"
+outputbase="/disks/dacelo/data/analyses/RB5_data_analysis/01_qc_analysis_SN877_0459_RLanfear_RSB_Epauciflora_gDNA/"
+ref="/disks/dacelo/data/active_refs/Epau.fa.gz" # reference file as a fasta
 gff="/disks/dacelo/data/raw_data/active_refs/Egrandis_genes_chr1_to_chr11.gff3"
 adaptors="/disks/dacelo/data/programs/bbmap/resources/adapters.fa"
-threads=50 # number of threads to use
+threads=20 # number of threads to use
 minlen=50 # minimum length of read to keep after trimming
 trimq=0 # trim bases with quality < this 
 
